@@ -204,8 +204,6 @@ figcaption{font-family:'PT Sans';font-size:14px;font-style:italic;color:#767676;
 .navigation-menu .sub-menu:checked + .link + ul{padding:10px 0 0}
 .navigation-menu .sub-menu:checked + .link + ul li{height:38px;padding:10px 20px 10px 43px;opacity:1;visibility:visible}
 .navigation-menu .sub-menu:checked + .link svg.name{-webkit-transform:rotate(180deg);transform: rotate(180deg)}
-.nav-menu:checked + .mainWrapper .mainIner main,
-.nav-menu:checked + .mainWrapper .mainIner .footbar{padding-left:90px}
 .nav-menu:checked + .mainWrapper .mainIner.multipleItem .Blog .blog-posts article,
 .nav-menu:checked + .mainWrapper .mainIner.singleItem .Blog .related-posts li{width:calc(25% - 15px)}
 .nav-menu:checked + .mainWrapper .mainIner.multipleItem .Blog .blog-posts article:nth-of-type(3n),
