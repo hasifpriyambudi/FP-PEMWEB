@@ -140,7 +140,7 @@ figure{margin:1.5em 0;}
 figure .lazy-youtube{margin-bottom:8px;}
 figcaption{font-family:'PT Sans';font-size:14px;font-style:italic;color:#767676;text-align:center;line-height:1.5em;}
 /* Header */
-.header{position:fixed;top:0;left:0;display:flex;width:100%;height:60px;padding:0 30px 0 25px;background-color:#4f9bec;color:#fefefe;fill:#fefefe;z-index:50;box-shadow:0 2px 10px 0 rgba(0,0,0,.04);-webkit-transition:all .2s ease;transition:all .2s ease;}
+.header{position:fixed;top:0;left:0;display:flex;width:100%;height:60px;padding:0 30px 0 25px;background-color:#f5f6fa;color:#fefefe;fill:#fefefe;z-index:50;box-shadow:0 2px 10px 0 #dcdde1;-webkit-transition:all .2s ease;transition:all .2s ease;}
 .header #header-widget{flex:0 0 auto;display:flex;align-items:center;height:100%;width:173px;padding:0 0 0 23px;overflow:hidden}
 .header .widget{margin:auto 0;background-repeat:no-repeat;background-size:100%;background-position:center}
 .header .header-inner img{max-width:142px;max-height:30px}
@@ -812,7 +812,7 @@ span.versi-app, span.ico-android{font-size:12px}
 .error-container .button{margin:0;padding:1em 2em;font-size:1em;font-weight:700;font-family:PT Sans, sans-serif;line-height:1.2em}
 .sidebar .widget, .Blog article, .FeaturedPost article, .widget input[type=email], .widget input[type=text], .widget textarea, .Blog .author-posts, .Blog .related-posts li, .Blog .post-tocContainer, .Blog article.post .post-share .share-icon > *, .Blog .comments ol > li, .Blog .blog-pager > *, .Blog .post-pagenav > *, .Profile .individual{box-shadow:0 10px 20px 0 rgba(30,30,30,.07)}
 /* Dark Mode */
-.dark-mode .header .navicon .nav i:last-child{background-color:#4f9bec}
+.dark-mode .header .navicon .nav i:last-child{background-color:#f5f6fa}
 .dark-mode .widget-title a.view-all{color:#4f9bec}
 .dark-mode .Blog .blog-pager > * svg{fill:#4f9bec}
 .dark-mode .Blog .post-body > img:first-child, .dark-mode .sidebar .widget, .dark-mode .Blog article, .dark-mode .FeaturedPost article, .dark-mode .widget input[type=email], .dark-mode .widget input[type=text], .dark-mode .widget textarea, .dark-mode .Blog .author-posts, .dark-mode .Blog .related-posts li, .dark-mode .Blog .post-tocContainer, .dark-mode .Blog article.post .post-share .share-icon > *, .dark-mode .Blog .comments ol > li, .dark-mode .Blog .blog-pager > *, .dark-mode .Blog .post-pagenav > *, .dark-mode .Profile .individual{box-shadow:0 6px 18px 0 rgba(23,23,26,0.02)}
