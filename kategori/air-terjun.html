@@ -41,25 +41,65 @@
 						</label>
 					</div>
 				</header>
-                <div class="row">
+				<div class="row" style="margin-bottom: 2rem;">
 
-                    <!-- Judul Artikel -->
-                    <div class="mainbar" onclick="pindahHalaman('../artikel/air-terjun/jogan.html')" style="background-image: url('../assets/image/air-terjun/jogan/jogan.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
-                        <main style="padding: 0px;">
-                            <div class="section">
-                                <h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Air Terjun Jogan</h1>
-                            </div>
-                        </main>
-                    </div>
-                    <!-- END Judul Artikel -->
+					<!-- Judul Artikel -->
+					<div class="mainbar" onclick="pindahHalaman('../artikel/air-terjun/jogan.html')" style="background-image: url('../assets/image/air-terjun/jogan/jogan.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Air Terjun Jogan</h1>
+							</div>
+						</main>
+					</div>
 
-                </div>
+					<div class="mainbar" onclick="pindahHalaman('../artikel/air-terjun/luwengsampang.html')" style="background-image: url('../assets/image/air-terjun/luwengsampang/luwengsampang.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Air Terjun Luweng Sampang</h1>
+							</div>
+						</main>
+					</div>
+
+					<div class="mainbar" onclick="pindahHalaman('../artikel/air-terjun/Mudal.html')" style="background-image: url('../assets/image/air-terjun/Mudal/pemandian.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Air Terjun Mudal</h1>
+							</div>
+						</main>
+					</div>
+
+					<div class="mainbar" onclick="pindahHalaman('../artikel/air-terjun/Mudal.html')" style="background-image: url('../assets/image/air-terjun/kedungpedut/Pedut\ 1.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Air Terjun Kedung Pedut</h1>
+							</div>
+						</main>
+					</div>
+
+					<div class="mainbar" onclick="pindahHalaman('../artikel/air-terjun/pulosari.html')" style="background-image: url('../assets/image/air-terjun/pulosari/pp.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Air Terjun Pulosari</h1>
+							</div>
+						</main>
+					</div>
+
+					<div class="mainbar" onclick="pindahHalaman('../artikel/air-terjun/srigethuk.html')" style="background-image: url('../assets/image/air-terjun/srigethuk/01-1.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Air Terjun Seigethuk</h1>
+							</div>
+						</main>
+					</div>
+					<!-- END Judul Artikel -->
+
+				</div>
 			</div>
-        </div>
-        <script>
+		</div>
+		<script>
 			/* <![CDATA[*/
 			localStorage.getItem("mode") === "darkmode" ? document.querySelector("#mainContent").classList.add("dark-mode") : document.querySelector("#mainContent").classList.remove("dark-mode");
-            /*]]>*/
+						/*]]>*/
 		</script>
 		<script>
 			/* <![CDATA[*/
@@ -67,14 +107,14 @@
 				localStorage.setItem("mode", "darkmode" === localStorage.getItem("mode") ? "light" : "darkmode"),
 					"darkmode" === localStorage.getItem("mode") ? document.querySelector("#mainContent").classList.add("dark-mode") : document.querySelector("#mainContent").classList.remove("dark-mode");
 			}
-            /*]]>*/
-        </script>
+						/*]]>*/
+				</script>
 
-        <!-- Pindah Halaman -->
-        <script>
-            function pindahHalaman(halaman) {
-                window.location.href = halaman;
-            }
-        </script>
-    </body>
+				<!-- Pindah Halaman -->
+				<script>
+						function pindahHalaman(halaman) {
+								window.location.href = halaman;
+						}
+				</script>
+		</body>
 </html>

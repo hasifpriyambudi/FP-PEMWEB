@@ -41,25 +41,63 @@
 						</label>
 					</div>
 				</header>
-                <div class="row">
+				<div class="row" style="margin-bottom: 2rem;">
+					<!-- Judul Artikel -->
+					<div class="mainbar" onclick="pindahHalaman('../artikel/kuliner/GudegMbahLindu.html')" style="background-image: url('../assets/image/kuliner/gudegbg.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Gudeg Mbah Lindu</h1>
+							</div>
+						</main>
+					</div>
 
-                    <!-- Judul Artikel -->
-                    <div class="mainbar" onclick="pindahHalaman('../artikel/kuliner/GudegMbahLindu.html')" style="background-image: url('../assets/image/kuliner/gudegbg.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
-                        <main style="padding: 0px;">
-                            <div class="section">
-                                <h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Gudeg Mbah Lindu</h1>
-                            </div>
-                        </main>
-                    </div>
-                    <!-- END Judul Artikel -->
+					<div class="mainbar" onclick="pindahHalaman('../artikel/kuliner/angkringanlikman.html')" style="background-image: url('../assets/image/kuliner/gudegbg.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Angrkingan Lik Man</h1>
+							</div>
+						</main>
+					</div>
 
-                </div>
+					<div class="mainbar" onclick="pindahHalaman('../artikel/kuliner/BakmieMo.html')" style="background-image: url('../assets/image/kuliner/bakmiembahmo.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Bakmie Mo</h1>
+							</div>
+						</main>
+					</div>
+
+					<div class="mainbar" onclick="pindahHalaman('../artikel/kuliner/LeleMarto.html')" style="background-image: url('../assets/image/kuliner/gudegbg.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Lele Marto</h1>
+							</div>
+						</main>
+					</div>
+
+					<div class="mainbar" onclick="pindahHalaman('../artikel/kuliner/MieAyamTumini.html')" style="background-image: url('../assets/image/kuliner/mieayam1.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Mie Ayam Tumini</h1>
+							</div>
+						</main>
+					</div>
+
+					<div class="mainbar" onclick="pindahHalaman('../artikel/kuliner/SateKlatakBari.html')" style="background-image: url('../assets/image/kuliner/klatakbg.jpg'); width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 40vh; margin: 2rem 2rem 0rem 2rem !important; border-radius: 20px; cursor:pointer;">
+						<main style="padding: 0px;">
+							<div class="section">
+								<h1 class="californian" style="color: white; display: flex; justify-content: center; align-items: center; min-height: 40vh;">Sate Klatak Bari</h1>
+							</div>
+						</main>
+					</div>
+					<!-- END Judul Artikel -->
+				</div>
 			</div>
-        </div>
-        <script>
+		</div>
+		<script>
 			/* <![CDATA[*/
 			localStorage.getItem("mode") === "darkmode" ? document.querySelector("#mainContent").classList.add("dark-mode") : document.querySelector("#mainContent").classList.remove("dark-mode");
-            /*]]>*/
+						/*]]>*/
 		</script>
 		<script>
 			/* <![CDATA[*/
@@ -67,14 +105,14 @@
 				localStorage.setItem("mode", "darkmode" === localStorage.getItem("mode") ? "light" : "darkmode"),
 					"darkmode" === localStorage.getItem("mode") ? document.querySelector("#mainContent").classList.add("dark-mode") : document.querySelector("#mainContent").classList.remove("dark-mode");
 			}
-            /*]]>*/
-        </script>
+						/*]]>*/
+				</script>
 
-        <!-- Pindah Halaman -->
-        <script>
-            function pindahHalaman(halaman) {
-                window.location.href = halaman;
-            }
-        </script>
-    </body>
+				<!-- Pindah Halaman -->
+				<script>
+						function pindahHalaman(halaman) {
+								window.location.href = halaman;
+						}
+				</script>
+		</body>
 </html>
